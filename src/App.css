@@ -1,0 +1,36 @@
+body,html{
+  background-color: rgb(44, 43, 43);
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+#main-container{
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  gap: 1rem;
+}
+
+.leter > h1{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+h1{
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+h2{
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+#main-container img{
+  border-radius: 100%;
+  border: 3px solid rgb(27, 27, 27);
+  width: 200px;
+}
